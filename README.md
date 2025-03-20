@@ -1,6 +1,6 @@
 # Eat your Fibers
 
-This repository contains a POC technique using Windows Fibers, a lightweight version of threads that runs in User-mode only thus achieving more stealth from kernel-level EDR detection.
+This repository contains a POC technique written in C using Windows Fibers, a lightweight version of threads that runs in User-mode only thus achieving more stealth from kernel-level EDR detection.
 
 ## Fonctionality
 
