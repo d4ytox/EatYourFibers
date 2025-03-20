@@ -16,4 +16,4 @@ The program converts the main running thread into a fiber before creating an exe
 ## CONS:
 - This technique has the inconvenient of possibly crashing the local process since we aren't spawning a new thread to exec the payload from.
 
-### NOTE: These are POC techniques, they aren't intended to be used in real-life red-teaming scenarios. The POC demonstrates the technique, but no attempt has been made to make the rest of POCs evasive (Think - obfuscation, encryption, where to write in memory...). 
+### NOTE: These are POC techniques, they aren't intended to be used in real-life red-teaming scenarios. The POC demonstrates the technique, but no attempt has been made to make the rest of POCs evasive (Think - obfuscation, encryption, where to write the payload...). 
